@@ -66,7 +66,7 @@
   margin-right: 100px;
   flex: 1;
 }
-button {
+.content-left-button > button {
   margin-left: 200px;
   margin-top: 10px;
   background-color: rgb(32, 35, 181);
@@ -79,4 +79,113 @@ button {
 button:hover {
   cursor: pointer;
   background-color: rgb(58, 60, 159);
+}
+
+/* Content styling */
+.content-second {
+  text-align: center;
+  padding: 100px;
+}
+
+/* Title styling */
+.content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin-top: 80px;
+}
+
+/* Grid item styling */
+.grid-item {
+  text-align: center;
+  justify-content: space-between;
+}
+
+/* Box styling */
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #4285f4;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* Text styling */
+.grid-item p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.quote-container {
+  background-color: #e0e0e0; /* Light gray background for the quote box */
+  padding: 80px;
+  max-width: 1900px;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 18px;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.quote-author {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.container-four {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 100px;
+  flex: 1;
+}
+
+.container-four-box {
+  display: inline-block;
+  border: 2px solid #4285f4;
+  border-radius: 5px;
+  color: #e5e7eb;
+  flex: 1;
+  background-color: #4285f4;
+  padding: 30px;
+}
+
+.container-four-box-text {
+  padding-bottom: 1px;
+}
+
+.container-four-box-button > button {
+  border-color: white;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 5px;
+  margin-left: 900px;
+  align-items: center;
+  display: inline-block;
+}
+
+.container-four-box-button > button:hover {
+  background-color: #063e98;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 50px;
+  text-align: center;
+  color: white;
 }
